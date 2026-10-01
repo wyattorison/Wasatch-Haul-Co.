@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wasatch Haul Co. | Junk Removal in the Salt Lake Valley</title>
+  <meta name="description" content="Junk removal across the Salt Lake valley. Send photos, get a firm price within two hours, cleared within 48. Built for homeowners, landlords, and real estate agents.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="#top" class="logo">Wasatch Haul Co.</a>
+    <nav class="nav">
+      <a href="#agents">For agents</a>
+      <a href="#rates">Rates</a>
+      <a href="#area">Service area</a>
+      <a href="#quote" class="btn btn-small">Get a quote</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Junk removal · Salt Lake valley</p>
+        <h1>Junk gone.<br>Listing ready.</h1>
+        <p class="lead">Send us photos and get a firm price within two hours. We load it, haul it, and sweep up, usually within 48 hours. Built for homeowners, landlords, and the agents getting a house ready to list.</p>
+        <div class="cta-row">
+          <a href="#quote" class="btn">Get a free quote</a>
+          <a href="#agents" class="btn btn-ghost">Agent program</a>
+        </div>
+        <dl class="stats">
+          <div><dt>2 hr</dt><dd>Quote from photos</dd></div>
+          <div><dt>48 hr</dt><dd>Typical cleanout</dd></div>
+          <div><dt>$99</dt><dd>Minimum pickup</dd></div>
+        </dl>
+      </div>
+
+      <div class="estimator card" aria-live="polite">
+        <p class="estimator-title">How full is your load?</p>
+        <div class="trailer" aria-hidden="true">
+          <div class="trailer-bed"><div class="trailer-fill" id="trailerFill"></div></div>
+          <div class="trailer-wheels"><span></span><span></span></div>
+        </div>
+        <input type="range" id="loadSlider" min="0" max="4" step="1" value="2" aria-label="Load size">
+        <p class="estimator-price"><strong id="loadPrice">$329</strong> <span id="loadDesc">Half a trailer: a garage corner or a basement room.</span></p>
+        <a href="#quote" class="btn btn-block" id="estimatorCta">Get a firm quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO WE WORK WITH -->
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Who we work with</p>
+      <h2>One truck, four kinds of deadline</h2>
+      <div class="grid-4">
+        <article class="card"><h3>Sellers &amp; agents</h3><p>Pre-listing cleanouts before the photographer arrives, and the leftovers after closing.</p></article>
+        <article class="card"><h3>Landlords &amp; property managers</h3><p>Tenant move-out trash-outs, so the unit turns this week instead of next month.</p></article>
+        <article class="card"><h3>Estates &amp; downsizing</h3><p>Whole-house cleanouts done with care. Usable furniture goes to donation, not the landfill.</p></article>
+        <article class="card"><h3>Homeowners</h3><p>Garages, basements, old couches, hot tubs, yard debris. Point at it and it's gone.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGENTS -->
+  <section class="section section-dark" id="agents">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Agent partner program</p>
+        <h2>Your listing goes live on schedule</h2>
+        <p class="lead">Text us photos from the walkthrough. We quote within two hours, clear the house in 48, and send you before-and-after photos for your files.</p>
+        <a href="#quote" class="btn" data-role="agent">Book a cleanout</a>
+      </div>
+      <ul class="checklist">
+        <li><strong>Priority scheduling</strong> for partner agents, including weekend cleanouts before an open house.</li>
+        <li><strong>Payment can wait until closing</strong>, so your seller doesn't need cash up front.</li>
+        <li><strong>Before/after photos</strong> sent to you the same day.</li>
+        <li><strong>One free single-item pickup</strong> for each of your buyers after they move in.</li>
+        <li><strong>Co-branded flyers</strong> you can hand to sellers at the listing appointment.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">How it works</p>
+      <h2>From photos to swept floor</h2>
+      <ol class="steps">
+        <li><h3>Send photos</h3><p>Use the form below or text us. No visit needed for most jobs.</p></li>
+        <li><h3>Get a firm price</h3><p>Priced by how much of the trailer you fill. The quote includes landfill fees.</p></li>
+        <li><h3>We load &amp; haul</h3><p>Two people, straps and dollies. You don't lift anything.</p></li>
+        <li><h3>Donate, recycle, dump</h3><p>Good furniture goes to local donation centers and metal gets recycled before anything hits the landfill.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- RATES -->
+  <section class="section section-tint" id="rates">
+    <div class="wrap split split-wide">
+      <div>
+        <p class="eyebrow">Rates</p>
+        <h2>Priced by the load</h2>
+        <div class="table-wrap">
+          <table class="rates">
+            <thead><tr><th>Load</th><th>Fits about</th><th>Price</th></tr></thead>
+            <tbody>
+              <tr><td>Single item</td><td>Couch, washer, water heater</td><td>$99</td></tr>
+              <tr><td>1/4 trailer</td><td>Small room, a few pieces</td><td>$199</td></tr>
+              <tr><td>1/2 trailer</td><td>Garage corner, basement room</td><td>$329</td></tr>
+              <tr><td>3/4 trailer</td><td>Most of a garage</td><td>$449</td></tr>
+              <tr><td>Full trailer</td><td>Several rooms, small estate</td><td>$549</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="fine">Added fees: mattress or box spring $25 each, refrigerator or freezer $30, tires $10 each, stairs or long carry +10–15%. Concrete, dirt and roofing are quoted by weight.</p>
+      </div>
+      <aside class="card">
+        <h3>What we can't take</h3>
+        <ul class="nolist">
+          <li>Paint, solvents, chemicals</li>
+          <li>Gasoline, oil, propane tanks</li>
+          <li>Asbestos</li>
+          <li>Medical waste</li>
+        </ul>
+        <p class="fine">Salt Lake County runs a household hazardous waste drop-off for these. Ask us and we'll point you to it.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- SERVICE AREA -->
+  <section class="section" id="area">
+    <div class="wrap">
+      <p class="eyebrow">Service area</p>
+      <h2>Across the Salt Lake valley</h2>
+      <ul class="chips">
+        <li>Salt Lake City</li><li>Sugar House</li><li>Millcreek</li><li>Holladay</li><li>Murray</li>
+        <li>Cottonwood Heights</li><li>Sandy</li><li>Draper</li><li>South Jordan</li><li>West Jordan</li>
+        <li>West Valley City</li><li>Taylorsville</li><li>Midvale</li><li>Herriman</li><li>Riverton</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- QUOTE FORM -->
+  <section class="section section-dark" id="quote">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Free quote</p>
+        <h2>Tell us what's going</h2>
+        <p class="lead">Fill this out, or call or text us directly.</p>
+        <p class="phone"><a href="tel:+18015550142">(801) 555-0142</a></p>
+        <p class="fine">Mon–Sat · 7am–7pm</p>
+      </div>
+
+      <form id="quoteForm" class="card form" novalidate>
+        <div class="field-row">
+          <label>Name<input name="name" autocomplete="name" required maxlength="100"></label>
+          <label>Phone<input name="phone" type="tel" autocomplete="tel" required maxlength="30"></label>
+        </div>
+        <div class="field-row">
+          <label>Zip code<input name="zip" inputmode="numeric" maxlength="10" autocomplete="postal-code"></label>
+          <label>I'm a…
+            <select name="customer_type">
+              <option value="homeowner">Homeowner</option>
+              <option value="agent">Real estate agent</option>
+              <option value="landlord">Landlord / property manager</option>
+              <option value="estate">Estate / downsizing</option>
+            </select>
+          </label>
+        </div>
+        <div class="field-row">
+          <label>Estimated load
+            <select name="load_size" id="loadSelect">
+              <option value="single">Single item ($99)</option>
+              <option value="quarter">1/4 trailer ($199)</option>
+              <option value="half" selected>1/2 trailer ($329)</option>
+              <option value="three_quarter">3/4 trailer ($449)</option>
+              <option value="full">Full trailer ($549)</option>
+              <option value="unsure">Not sure</option>
+            </select>
+          </label>
+          <label>Needed by<input name="needed_by" type="date"></label>
+        </div>
+        <label>What needs to go?<textarea name="details" rows="4" maxlength="2000" placeholder="e.g. old couch, two mattresses, garage shelving"></textarea></label>
+        <!-- spam trap: real people never see or fill this -->
+        <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <p class="form-error" id="formError" hidden>Add your name and phone so we can reach you.</p>
+        <button type="submit" class="btn btn-block" id="submitBtn">Send quote request</button>
+
+        <div class="form-success" id="formSuccess" hidden>
+          <h3>Got it, thanks!</h3>
+          <p>We'll call or text you shortly. To get your price faster, text your photos to <a href="sms:+18015550142">(801) 555-0142</a>.</p>
+        </div>
+
+        <div class="form-fallback" id="formFallback" hidden>
+          <p><strong>Copy this and text it to (801) 555-0142 with your photos.</strong></p>
+          <pre id="fallbackText"></pre>
+          <button type="button" class="btn btn-ghost btn-small" id="copyBtn">Copy text</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 Wasatch Haul Co. · Licensed &amp; insured · Salt Lake City, Utah</p>
+    <p>Donating usable items to local donation centers</p>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
