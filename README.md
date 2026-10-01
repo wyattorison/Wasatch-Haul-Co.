@@ -12,7 +12,7 @@ A plain HTML/CSS/JavaScript site. No build step and nothing to install.
 ## Setup
 1. **GitHub:** upload all these files to the repo (Add file → Upload files → Commit changes).
 2. **Vercel:** Add New → Project → import this repo → Framework Preset "Other" → Deploy.
-3. **Supabase:** New project → SQL Editor → paste `supabase-setup.sql` → Run.
+3. **Supabase:**https://qggsubmiyqkhqvyfoijw.supabase.co/rest/v1/
 4. **Connect:** Supabase → Project Settings → API. Copy the Project URL and the anon public key into `config.js` (edit it right on GitHub with the pencil icon) and commit. Vercel redeploys automatically.
 5. **Test:** submit a quote on the live site, then check Supabase → Table Editor → quote_requests.
 
